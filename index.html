@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>他是个疯子</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+	<h1><img src="CydiaIcon.png"> 他是个疯子</h1>
+</div>
+
+<div class="container">
+	<div class="well">
+		<p><span class="text-primary"><b>添加我到软件源</span></b> 这是一个cydia的动态库.</p>
+		<a class="btn btn-sm btn-default" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://fengziboy.github.io/cydia/">你可以点击这里直接添加到cydia</a>
+	</div>
+    <div class="well">
+        <p><span class="text-primary"><b>QQ群</span></b> 这里是我的qq群</p>
+        <a class="btn btn-sm btn-default" href="https://qm.qq.com/cgi-bin/qm/qr?k=3E6NIMRxJuoAGun5DH6XLWoQ8cm5T4TW/">点击这里加入我的qq群</a>
+    </div>
+</div>
+
+
+<div class="container">
+  <h3 id="wells" class="page-header">推荐</h3>
+</div>
+
+<div class="container">
+<div class="panel panel-default">
+<div class="panel-heading">AudioRecorder2「通话录音」
+    <a class="btn btn-xs btn-default" href="depictions/?p=com.fengziboy.audiorecorder">更多信息</a>
+    <div class="panel-body">
+     </div>
+</div>
+    
+</div>
+    <div class="panel panel-default">
+        <div class="panel-heading">call barX 「迷你通话」
+            <a class="btn btn-xs btn-default" href="depictions/?p=com.fengzi.github.callbarx">更多信息</a>
+            <div class="panel-body">
+    </div>
+</div>
+    
+</div>
+    <div class="panel panel-default">
+        <div class="panel-heading">WeChatHookPro「微信助手」
+            <a class="btn btn-xs btn-default" href="depictions/?p=com.fengziboy.WeChatHookPro">更多信息</a>
+        <div class="panel-body">
+    </div>
+</div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">iCleaner Pro「系统清理」
+            <a class="btn btn-xs btn-default" href="depictions/?p=com.fengziboy.icleanerpro_7.7.0_iphoneos-arm">更多信息</a>
+        <div class="panel-body">
+    </div>
+</div>
+    </div>
+    <div class="panel panel-default">
+    <div class="panel-heading">屏蔽证书过期「还原hosts」
+        <a class="btn btn-xs btn-default" href="depictions/?p=com.fengziboy.ocsphosts">更多信息</a>
+        <div class="panel-body">
+        </div>
+    </div>
+</div>
+    <div class="panel panel-default">
+        <div class="panel-heading">redeb「备份deb」
+            <a class="btn btn-xs btn-default" href="depictions/?p=com.fengziboy.redeb">更多信息</a>
+            <div class="panel-body">
+            </div>
+        </div>
+</div>
+    <div class="panel panel-default">
+            <div class="panel-heading">VoiceChangerX「通话变声」
+                <a class="btn btn-xs btn-default" href="depictions/?p=com.fengzi.github.voicechangerx">更多信息</a>
+                <div class="panel-body">
+        </div>
+    </div>
+</div>
+        <div class="container">
+            <div class="panel panel-default">
+                <div class="panel-heading">事例测试
+                    <a class="btn btn-xs btn-default" href="depictions/?p=com.fengzi.github.next">更多信息</a>
+        <div class="panel-body">
+        </div>
+    </div>测试包
+</div>
+            </div>
+  / </div>
+</div>
+    </div>
+    <div class="container">
+	<div class="panel panel-default">
+	  <div class="panel-heading">旧的安装包</div>
+	  <div class="panel-body">
+		这是一个信息最少的示例包.
+		它还模拟了仅与低于7.0的iOS不兼容的旧包.<br /><br />
+		<a class="btn btn-xs btn-default" href="depictions/?p=com.fengzi.github.next">更多信息</a>
+	  </div>
+	</div>
+</div>
+	<div class="panel panel-default">
+	  <div class="panel-heading">新的安装包</div>
+	  <div class="panel-body">
+		这是一个包含大量信息的示例包.<br /><br />
+		<a class="btn btn-xs btn-default" href="depictions/?p=com.supermamon.newpackage">更多信息</a>
+	  </div>
+	</div>
+</div>/
+
+<p style="text-align:center;">他是个疯子 © 2019</p>
+<!-- 游览器打开源网站打开最下显示-->
+<center><h5>现在是:<span id="year"></span>年
+    <span id="month"></span>月
+    <span id="day"></span>日
+    星期<span id="week"></span>
+    <span id="h"></span>时 <span id="m"></span>分 <span id="s"></span>秒
+    
+    <script type="text/javascript">
+        //获取'年'的ID year
+        var year = document.getElementById('year'),
+        //获取'月'的ID month
+        month = document.getElementById('month'),
+        //获取'日'的ID day
+        day = document.getElementById('day'),
+        //获取'星期'的ID week
+        week = document.getElementById('week'),
+        //获取'时'的ID h
+        h = document.getElementById('h'),
+        //获取'分'的ID m
+        m = document.getElementById('m'),
+        //获取'秒'的ID s
+        s = document.getElementById('s');
+        
+        function timed() {
+            //创建Date时间对象
+            var time = new Date();
+            //获取四位数的年分并更改year的内容
+            year.innerHTML=time.getFullYear();
+            //获取月份+1并更改month的内容 月份+1 是因为月份默认从0开始
+            month.innerHTML=time.getMonth()+1;
+            //获取日期并更改day的内容
+            day.innerHTML=time.getDate();
+            //获取星期并更改week的内容
+            week.innerHTML = time.getDay();
+            //获取小时并更改h的内容
+            h.innerHTML=time.getHours();
+            //获取分钟并更改m的内容
+            m.innerHTML=(time.getMinutes() > 9 ? time.getMinutes() : "0" + time.getMinutes());
+            //获取秒钟并更改s的内容
+            s.innerHTML=(time.getSeconds() > 9 ? time.getSeconds() : "0" + time.getSeconds());
+            //获取星期数用于下面的判断
+            w = time.getDay();
+            //定义个数组并赋值
+            var weekArr = ['天','一','二','三','四','五','六'];
+            //for循环
+            for(var i = 0;i<weekArr.length;i++) {
+                //如果w的值等于i的值
+                if (w == i) {
+                    //就更改week的内容为weekArr[i]
+                    //也就是中文的数字
+                    week.innerHTML= weekArr[i];
+                }
+            }
+            //setTimeout函数设置间隔 每1000毫秒执行一次函数
+            setTimeout("timed()",1000);
+            
+        }
+    
+    timed();
+        </script></h5>
+
+</center>
+
+<center>
+    <b><FONT COLOR="#0000ff">网站已运行:<span id="run_time" style="color:red"></span>
+</center>
+
+<script>
+    function runTime() {
+        var d = new Date(), str = '';
+        BirthDay = new Date("December 31,2018");
+        today = new Date();
+        timeold = (today.getTime() - BirthDay.getTime());
+        sectimeold = timeold / 1000
+        secondsold = Math.floor(sectimeold);
+        msPerDay = 24 * 60 * 60 * 1000
+        msPerYear = 365 * 24 * 60 * 60 * 1000
+        e_daysold = timeold / msPerDay
+        e_yearsold = timeold / msPerYear
+        daysold = Math.floor(e_daysold);
+        yearsold = Math.floor(e_yearsold);
+        //str = yearsold + "年";
+        str += daysold + "天";
+        str += d.getHours() + '时';
+        str += d.getMinutes() + '分';
+        str += d.getSeconds() + '秒';
+        return str;
+    }
+setInterval(function () { $('#run_time').html(runTime()) }, 1000);
+    </script></FONT></b>
+<!-- 游览器打开源网站打开最下显示-->
+    </SCRIPT>
+</body>
+</html>
