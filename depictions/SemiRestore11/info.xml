@@ -1,7 +1,7 @@
 <package>
 	<id>com.fengziboy</id>
-	<name>样版</name>
-    <version>当前版本:</version>
+	<name>SemiRestore11 / Rollectra「平刷」</name>
+    <version>当前版本:0.0.0</version>
     <versio>暂无历史版本</versio>
 	<compatibility>
 		<firmware>
@@ -13,7 +13,7 @@
             默认:mobilesubstrate]]></package>
 	</dependencies>
 	<descriptionlist>
-		<description>  </description>
+		<description>暂时只支持iOS 11.3 ——11.4 Beta 3.强大的平刷工具,修改过字体,修改过ui的都能还原,记得备份资料.11.0-11.26暂时还没有平刷工具,只有清除越狱环境的东西,不要把平刷跟清除越狱混为一谈.需要清除越狱工具的源搜「清除越狱」另外还有一款给cydia无法打开闪退,但是有安装filza的用户,一款手机端清除工具「下方x加qq群获取」,</description>
 		<!-- <description>描述第二行文字</description>-->
 		<description><![CDATA[
             永久免费的个人源<br/>
