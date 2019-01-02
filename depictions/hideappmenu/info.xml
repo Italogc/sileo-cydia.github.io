@@ -1,18 +1,18 @@
 <package>
 	<id>com.fengziboy</id>
-	<name>ConditionalWiFi3「网络权限」</name>
-    <version>当前版本:1.0.0</version>
+	<name>HideAppMenu「隐藏应用小点」</name>
+    <version>当前版本:1.0-1</version>
     <versio>暂无历史版本</versio>
 	<compatibility>
 		<firmware>
-			<miniOS>11.0</miniOS>
+			<miniOS>8.0</miniOS>
 		</firmware>
 	</compatibility>
 	<dependencies>
-		<package><![CDATA[mobilesubstrate, firmware (>= 11.0), preferenceloader (< 2.2.3)]]></package>
+		<package><![CDATA[firmware (>= 8.0), mobilesubstrate (>= 0.9.5000)]]></package>
 	</dependencies>
 	<descriptionlist>
-		<description>ios11的网络权限授权,如果应用没法联网,或者安装应用没有网络弹窗安装此插件,然后去设置找到插件设置,打开相应的网络权限开关</description>
+		<description>隐藏你在appsotre下载更新的小点,或者测试app的小点</description>
 		<!-- <description>描述第二行文字</description>-->
 		<description><![CDATA[
             永久免费的个人源<br/>

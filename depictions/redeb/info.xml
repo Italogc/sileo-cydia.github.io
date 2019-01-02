@@ -1,7 +1,7 @@
 <package>
 	<id>com.fengziboy</id>
-	<name>ConditionalWiFi3「网络权限」</name>
-    <version>当前版本:1.0.0</version>
+	<name>redeb「备份deb</name>
+    <version>当前版本:1.0.3</version>
     <versio>暂无历史版本</versio>
 	<compatibility>
 		<firmware>
@@ -9,10 +9,10 @@
 		</firmware>
 	</compatibility>
 	<dependencies>
-		<package><![CDATA[mobilesubstrate, firmware (>= 11.0), preferenceloader (< 2.2.3)]]></package>
+		<package><![CDATA[bash (>= 4.0.17-13), coreutils (>= 8.12-12p), grep (>= 2.5.4-3), sed (>= 4.1.5-7), gawk (>= 3.1.6-2p), apt7 (>= 0.7.25.3-6)]]></package>
 	</dependencies>
 	<descriptionlist>
-		<description>ios11的网络权限授权,如果应用没法联网,或者安装应用没有网络弹窗安装此插件,然后去设置找到插件设置,打开相应的网络权限开关</description>
+		<description>安装手机终端.输入命令“redeb”输入Y查看插件并输入编号进行备份,插件备份目录/var/mobile/Documents/Redeb/debs.</description>
 		<!-- <description>描述第二行文字</description>-->
 		<description><![CDATA[
             永久免费的个人源<br/>
