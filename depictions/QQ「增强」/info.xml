@@ -1,11 +1,11 @@
 <package>
 	<id>com.fengziboy</id>
-	<name>样板测试,只是测试,没有其他的</name>
-    <version>当前版本:0.0.0</version>
+	<name>QQ「增强」</name>
+    <version>当前版本:1.0.0</version>
     <versio>暂无历史版本</versio>
 	<compatibility>
 		<firmware>
-			<miniOS>11.0</miniOS>
+			<miniOS>9.0</miniOS>
 		</firmware>
 	</compatibility>
 	<dependencies>
@@ -13,7 +13,7 @@
             默认:mobilesubstrate]]></package>
 	</dependencies>
 	<descriptionlist>
-		<description>暂时只是一个描述模版等等添加,你可以去下面添加qq群或者微信联系到我</description>
+		<description>QQ增强插件破解版</description>
 		<!-- <description>描述第二行文字</description>-->
 		<description><![CDATA[
             永久免费的个人源<br/>

@@ -1,0 +1,49 @@
+<package>
+	<id>com.fengziboy</id>
+	<name>StoreSwitcher 2「快速切换🆔账号」</name>
+    <version>当前版本:1.0.2</version>
+    <versio>暂无历史版本</versio>
+	<compatibility>
+		<firmware>
+			<miniOS>11.0</miniOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package><![CDATA[暂无描述依赖,我还没来得及写.<br/>
+            默认:mobilesubstrate]]></package>
+	</dependencies>
+	<descriptionlist>
+		<description>App Store 快速切换ID@ iOS 11+/切换开关在AppStore里面</description>
+		<!-- <description>描述第二行文字</description>-->
+		<description><![CDATA[
+            永久免费的个人源<br/>
+		他是个疯子打包<br/>
+        联系地址在底下
+		]]>
+		</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description>这是屏幕截图1!</description>
+			<image>1.png</image>
+		</screenshot>		
+		<screenshot>
+			<description>这是屏幕截图2!</description>
+			<image>2.png</image>
+		</screenshot>		
+	</screenshots>
+	<changelog>
+		<change>暂无发现版本</change>
+		<change>暂无说明</change>
+		<change>没有历史变更</change>
+	</changelog>
+    <shortDescription>你的固件不被支持。固件应大于11.0</shortDescription>
+    <versi>描述插件所需要的依赖</versi>
+	<!--<links>
+		<link>
+			<name>加入我的qq越狱交流群</name>
+			<url>https://qm.qq.com/cgi-bin/qm/qr?k=3E6NIMRxJuoAGun5DH6XLWoQ8cm5T4TW</url>
+			<iconclass>fa fa-qq</iconclass>
+		</link>
+	</links>-->
+</package>
