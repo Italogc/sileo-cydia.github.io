@@ -1,7 +1,7 @@
 <package>
 	<id>com.fengziboy</id>
-	<name>样板测试,只是测试,没有其他的</name>
-    <version>当前版本:0.0.0</version>
+	<name>Filza File Manager「文件管理器」</name>
+    <version>3.6.0-33</version>
     <versio>暂无历史版本</versio>
 	<compatibility>
 		<firmware>
@@ -9,11 +9,10 @@
 		</firmware>
 	</compatibility>
 	<dependencies>
-		<package><![CDATA[暂无描述依赖,我还没来得及写.<br/>
-            默认:mobilesubstrate]]></package>
+		<package><![CDATA[zip, unzip, gzip, unrar, p7zip]]></package>
 	</dependencies>
 	<descriptionlist>
-		<description>暂时只是一个描述模版等等添加,你可以去下面添加qq群或者微信联系到我</description>
+		<description>文件管理器,查看系统文件.</description>
 		<!-- <description>描述第二行文字</description>-->
 		<description><![CDATA[
             永久免费的个人源<br/>
