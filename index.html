@@ -35,8 +35,17 @@
 
 <div class="container">
   <h3 id="wells" class="page-header">推荐</h3>
-
-
+  <%
+      '一个简单的网页计数器
+      Set fs=CreateObject("Scripting.FileSystemObject")
+      Set a=fs.openTextFile(server.mappath("count.txt"))
+      count=a.readline
+      response.write " " & count
+      count=count+1
+      Set fs=CreateObject("Scripting.FileSystemObject")
+      Set a=fs.createTextfile(server.mappath("count.txt"))
+      a.writeline(count)
+      %>
 <p style="text-align:center;">他是个疯子 © 2019</p>
 <!-- 游览器打开源网站打开最下显示-->
 <center><h5>现在是:<span id="year"></span>年
