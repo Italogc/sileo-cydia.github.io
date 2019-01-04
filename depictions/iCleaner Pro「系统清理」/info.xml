@@ -1,8 +1,8 @@
 <package>
 	<id>com.fengziboy</id>
 	<name>iCleaner Pro「系统清理」</name>
-    <version>当前版本:7.7.0</version>
-    <versio>暂无历史版本</versio>
+    <version>当前版本:7.7.1测试版</version>
+    <versio>历史版本:7.7.0</versio>
 	<compatibility>
 		<firmware>
 			<miniOS>5.0</miniOS>
@@ -12,7 +12,7 @@
 		<package><![CDATA[firmware (>= 4.0), apt7, findutils, shell-cmds]]></package>
 	</dependencies>
 	<descriptionlist>
-		<description>一个很棒的系统缓冲,垃圾清理工具.</description>
+		<description>一个很棒的系统缓冲,垃圾清理工具.如要安装正式版,请降级安装7.7.0</description>
 		<!-- <description>描述第二行文字</description>-->
 		<description><![CDATA[
             永久免费的个人源<br/>
@@ -32,7 +32,7 @@
 		</screenshot>		
 	</screenshots>
 	<changelog>
-		<change>暂无发现版本</change>
+        <change>暂无说明</change>
 		<change>暂无说明</change>
 		<change>没有历史变更</change>
 	</changelog>
