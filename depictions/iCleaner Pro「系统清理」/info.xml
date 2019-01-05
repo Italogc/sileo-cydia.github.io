@@ -1,7 +1,7 @@
 <package>
 	<id>com.fengziboy</id>
 	<name>iCleaner Pro「系统清理」</name>
-    <version>当前版本:7.7.1测试版</version>
+    <version>当前版本:7.7.2测试版</version>
     <versio>历史版本:7.7.0</versio>
 	<compatibility>
 		<firmware>
@@ -12,7 +12,7 @@
 		<package><![CDATA[firmware (>= 4.0), apt7, findutils, shell-cmds]]></package>
 	</dependencies>
 	<descriptionlist>
-		<description>一个很棒的系统缓冲,垃圾清理工具.如要安装正式版,请降级安装7.7.0</description>
+		<description>一个很棒的系统缓冲,垃圾清理工具.如要安装正式版,请降级安装7.7.0正式版,正式版现在无法设置简体中文</description>
 		<!-- <description>描述第二行文字</description>-->
 		<description><![CDATA[
             永久免费的个人源<br/>
@@ -32,8 +32,8 @@
 		</screenshot>		
 	</screenshots>
 	<changelog>
-        <change>暂无说明</change>
-		<change>暂无说明</change>
+        <change>7.7.0正式版现在无法设置简体中文</change>
+		<change></change>
 		<change>没有历史变更</change>
 	</changelog>
     <shortDescription>你的固件不被支持。固件应大于11.0</shortDescription>
