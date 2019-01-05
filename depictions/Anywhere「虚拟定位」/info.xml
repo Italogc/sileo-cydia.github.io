@@ -5,7 +5,7 @@
     <versio>暂无历史版本</versio>
 	<compatibility>
 		<firmware>
-			<miniOS>11.0</miniOS>
+			<miniOS>8.0</miniOS>
 		</firmware>
 	</compatibility>
 	<dependencies>
