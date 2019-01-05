@@ -12,7 +12,7 @@
 		<package><![CDATA[firmware (>= 5.0), mobilesubstrate]]></package>
 	</dependencies>
 	<descriptionlist>
-		<description>描增强微信,密友,抢红包,自动回复,斗图,修改步数,等等,慎用小心封号</description>
+		<description>描增强微信,密友,抢红包,自动回复,斗图,修改步数,等等,发朋友圈视频不能大于30秒,使用方法,先发送视频给好友,然后到聊天窗口转发视频到朋友圈,超过30秒会失败!慎用小心封号</description>
 		<!-- <description>描述第二行文字</description>-->
 		<description><![CDATA[
             永久免费的个人源<br/>
