@@ -1,7 +1,7 @@
 <package>
 	<id>com.fengziboy</id>
-	<name>样版</name>
-    <version>当前版本:</version>
+	<name>SmartVolumeControl2「迷你音量破解版」</name>
+    <version>当前版本:2.1</version>
     <versio>暂无历史版本</versio>
 	<compatibility>
 		<firmware>
@@ -9,8 +9,7 @@
 		</firmware>
 	</compatibility>
 	<dependencies>
-		<package><![CDATA[暂无描述依赖,我还没来得及写.<br/>
-            默认:mobilesubstrate]]></package>
+		<package><![CDATA[mobilesubstrate, preferenceloader, firmware(>=7.0)]]></package>
 	</dependencies>
 	<descriptionlist>
 		<description>  </description>

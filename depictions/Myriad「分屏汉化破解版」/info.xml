@@ -1,7 +1,7 @@
 <package>
 	<id>com.fengziboy</id>
-	<name>样版</name>
-    <version>当前版本:</version>
+	<name>Myriad「分屏汉化破解版」</name>
+    <version>当前版本:0.2.1-5fix</version>
     <versio>暂无历史版本</versio>
 	<compatibility>
 		<firmware>
@@ -9,11 +9,10 @@
 		</firmware>
 	</compatibility>
 	<dependencies>
-		<package><![CDATA[暂无描述依赖,我还没来得及写.<br/>
-            默认:mobilesubstrate]]></package>
+		<package><![CDATA[mobilesubstrate, com.rpetrich.rocketbootstrap (>= 1.0.3), com.spark.libsparkapplist, preferenceloader, jp.ashikase.techsupport]]></package>
 	</dependencies>
 	<descriptionlist>
-		<description>  </description>
+		<description> 分屏插件,可以分多个屏幕 </description>
 		<!-- <description>描述第二行文字</description>-->
 		<description><![CDATA[
             永久免费的个人源<br/>
