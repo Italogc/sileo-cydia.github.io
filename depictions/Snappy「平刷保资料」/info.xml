@@ -16,9 +16,8 @@
 		<description>ssh平刷保资料必要插件.ssh链接到你的手机,终端输入命令”snappy -f / -r orig-fs -x“回车”snapUtil -r orig-fs com.apple.os.update-`guid` /“回车然后重启你的手机呢的越狱就清除了,如果还有越狱应用图标,可以不要管,因为越狱已经清除了</description>
 		<!-- <description>描述第二行文字</description>-->
 		<description><![CDATA[
-            永久免费的个人源<br/>
-		他是个疯子打包<br/>
-        联系地址在底下
+            打造永久免费的个人源<br/>
+            更多精彩在地下室
 		]]>
 		</description>
 	</descriptionlist>

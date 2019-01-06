@@ -15,9 +15,8 @@
 		<description>安装手机终端.输入命令“redeb”输入Y查看插件并输入编号进行备份,插件备份目录/var/mobile/Documents/Redeb/debs.</description>
 		<!-- <description>描述第二行文字</description>-->
 		<description><![CDATA[
-            永久免费的个人源<br/>
-		他是个疯子打包<br/>
-        联系地址在底下
+            打造永久免费的个人源<br/>
+            更多精彩在地下室
 		]]>
 		</description>
 	</descriptionlist>
