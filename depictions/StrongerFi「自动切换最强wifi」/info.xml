@@ -1,11 +1,11 @@
 <package>
 	<id>com.fengziboy</id>
-	<name>样版</name>
-    <version>当前版本:</version>
+	<name>StrongerFi「自动切换最强wifi」</name>
+    <version>当前版本:1.0.0~beta4</version>
     <versio>暂无历史版本</versio>
 	<compatibility>
 		<firmware>
-			<miniOS>11.0</miniOS>
+			<miniOS>9.0</miniOS>
 		</firmware>
 	</compatibility>
 	<dependencies>
@@ -13,7 +13,7 @@
             默认:mobilesubstrate]]></package>
 	</dependencies>
 	<descriptionlist>
-		<description>  </description>
+		<description> 自动切换到最强的 WiFi 网络的插件 </description>
 		<!-- <description>描述第二行文字</description>-->
 		<description><![CDATA[
             永久免费的个人源<br/>
