@@ -12,7 +12,7 @@
 		<package><![CDATA[mobilesubstrate, preferenceloader]]></package>
 	</dependencies>
 	<descriptionlist>
-		<description> 利用此工具关机,无需在此越狱,就能实现重启操作 </description>
+		<description> 利用此工具关机,无需在次激活越狱,就能实现重启操作.重启后依然是越狱状态 </description>
 		<!-- <description>描述第二行文字</description>-->
 		<description><![CDATA[
             永久免费的个人源<br/>
