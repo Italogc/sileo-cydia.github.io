@@ -1,7 +1,7 @@
 <package>
 	<id>com.fengziboy</id>
-	<name>样版</name>
-    <version>当前版本:</version>
+	<name>PowerSelector「软重启」</name>
+    <version>当前版本:1.1-6</version>
     <versio>暂无历史版本</versio>
 	<compatibility>
 		<firmware>
@@ -9,11 +9,10 @@
 		</firmware>
 	</compatibility>
 	<dependencies>
-		<package><![CDATA[暂无描述依赖,我还没来得及写.<br/>
-            默认:mobilesubstrate]]></package>
+		<package><![CDATA[mobilesubstrate, preferenceloader]]></package>
 	</dependencies>
 	<descriptionlist>
-		<description>  </description>
+		<description> 利用此工具关机,无需在此越狱,就能实现重启操作 </description>
 		<!-- <description>描述第二行文字</description>-->
 		<description><![CDATA[
             永久免费的个人源<br/>
