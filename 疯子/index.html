@@ -186,109 +186,18 @@
 	</div>
 
 	<div class="container">
-		<h3>插件描述</h3>
+		<h3>越狱版ipa下载无签名</h3>
         <h5><span id="versionBadge" class="badge" /></h5>
 		<ul id="descriptionList" class="list-group">
 			<li id="screenshotsLink" />
 		</ul>
 	</div>
-<!-- cydia打开第一页第一屏底下显示-->
-<center><h5>现在是:<span id="year"></span>年
-<span id="month"></span>月
-<span id="day"></span>日
-星期<span id="week"></span>
-<span id="h"></span>时 <span id="m"></span>分 <span id="s"></span>秒
-
-<script type="text/javascript">
-    //获取'年'的ID year
-    var year = document.getElementById('year'),
-    //获取'月'的ID month
-    month = document.getElementById('month'),
-    //获取'日'的ID day
-    day = document.getElementById('day'),
-    //获取'星期'的ID week
-    week = document.getElementById('week'),
-    //获取'时'的ID h
-    h = document.getElementById('h'),
-    //获取'分'的ID m
-    m = document.getElementById('m'),
-    //获取'秒'的ID s
-    s = document.getElementById('s');
-    
-    function timed() {
-        //创建Date时间对象
-        var time = new Date();
-        //获取四位数的年分并更改year的内容
-        year.innerHTML=time.getFullYear();
-        //获取月份+1并更改month的内容 月份+1 是因为月份默认从0开始
-        month.innerHTML=time.getMonth()+1;
-        //获取日期并更改day的内容
-        day.innerHTML=time.getDate();
-        //获取星期并更改week的内容
-        week.innerHTML = time.getDay();
-        //获取小时并更改h的内容
-        h.innerHTML=time.getHours();
-        //获取分钟并更改m的内容
-        m.innerHTML=(time.getMinutes() > 9 ? time.getMinutes() : "0" + time.getMinutes());
-        //获取秒钟并更改s的内容
-        s.innerHTML=(time.getSeconds() > 9 ? time.getSeconds() : "0" + time.getSeconds());
-        //获取星期数用于下面的判断
-        w = time.getDay();
-        //定义个数组并赋值
-        var weekArr = ['天','一','二','三','四','五','六'];
-        //for循环
-        for(var i = 0;i<weekArr.length;i++) {
-            //如果w的值等于i的值
-            if (w == i) {
-                //就更改week的内容为weekArr[i]
-                //也就是中文的数字
-                week.innerHTML= weekArr[i];
-            }
-        }
-        //setTimeout函数设置间隔 每1000毫秒执行一次函数
-        setTimeout("timed()",1000);
-        
-    }
-
-timed();
-    </script></h5>
-
-</center>
-
-<center>
-    <b><FONT COLOR="#0000ff">网站已运行:<span id="run_time" style="color:red"></span>
-</center>
-
-<script>
-    function runTime() {
-        var d = new Date(), str = '';
-        BirthDay = new Date("January 1,2019");
-        today = new Date();
-        timeold = (today.getTime() - BirthDay.getTime());
-        sectimeold = timeold / 1000
-        secondsold = Math.floor(sectimeold);
-        msPerDay = 24 * 60 * 60 * 1000
-        msPerYear = 365 * 24 * 60 * 60 * 1000
-        e_daysold = timeold / msPerDay
-        e_yearsold = timeold / msPerYear
-        daysold = Math.floor(e_daysold);
-        yearsold = Math.floor(e_yearsold);
-        //str = yearsold + "年";
-        str += daysold + "天";
-        str += d.getHours() + '时';
-        str += d.getMinutes() + '分';
-        str += d.getSeconds() + '秒';
-        return str;
-    }
-setInterval(function () { $('#run_time').html(runTime()) }, 1000);
-    </script></FONT></b>
-<!-- cydia打开第一页第一屏最底下显示 -->
-<div class="container" id="dependenciesContainer">
+<!--<div class="container" id="dependenciesContainer">
     <h3>越狱版ipa下载无签名</h3>
         <h5><span id="versionBadge2" class="badge" /></h5>
     <ul id="dependencyList" class="list-group">
     </ul>
-</div>
+</div>-->
 <div class="container" id="dependenciesContainer">
     <h3>ipa下载说明</h3>
     <h5>你的手机必须已经越狱,安装本源app sync31.1版本.如安装失败查看系统依赖文件是否安装完全,查看系统空间够不够使用.所有ipa已经完全去掉签名文件,必须在越狱状态下才能打开,如遇闪退「查看是否是越狱状态」,ipa应用「闪退,无法安装,无法下载,等等」问题加群联系到我反馈,点击安装即可返回桌面查看,安装速度取决于你的网速.未越狱设备安装会提示失败,不适应于未越狱的设备,「未越狱用户请加群,自行签名安装」</h5>
@@ -309,6 +218,97 @@ setInterval(function () { $('#run_time').html(runTime()) }, 1000);
 		<ul id="externalLinksList" class="list-group">
 		</ul>-->
 	</div>
+    <!-- cydia打开第一页第一屏底下显示-->
+    <center><h5>现在是:<span id="year"></span>年
+        <span id="month"></span>月
+        <span id="day"></span>日
+        星期<span id="week"></span>
+        <span id="h"></span>时 <span id="m"></span>分 <span id="s"></span>秒
+        
+        <script type="text/javascript">
+            //获取'年'的ID year
+            var year = document.getElementById('year'),
+            //获取'月'的ID month
+            month = document.getElementById('month'),
+            //获取'日'的ID day
+            day = document.getElementById('day'),
+            //获取'星期'的ID week
+            week = document.getElementById('week'),
+            //获取'时'的ID h
+            h = document.getElementById('h'),
+            //获取'分'的ID m
+            m = document.getElementById('m'),
+            //获取'秒'的ID s
+            s = document.getElementById('s');
+            
+            function timed() {
+                //创建Date时间对象
+                var time = new Date();
+                //获取四位数的年分并更改year的内容
+                year.innerHTML=time.getFullYear();
+                //获取月份+1并更改month的内容 月份+1 是因为月份默认从0开始
+                month.innerHTML=time.getMonth()+1;
+                //获取日期并更改day的内容
+                day.innerHTML=time.getDate();
+                //获取星期并更改week的内容
+                week.innerHTML = time.getDay();
+                //获取小时并更改h的内容
+                h.innerHTML=time.getHours();
+                //获取分钟并更改m的内容
+                m.innerHTML=(time.getMinutes() > 9 ? time.getMinutes() : "0" + time.getMinutes());
+                //获取秒钟并更改s的内容
+                s.innerHTML=(time.getSeconds() > 9 ? time.getSeconds() : "0" + time.getSeconds());
+                //获取星期数用于下面的判断
+                w = time.getDay();
+                //定义个数组并赋值
+                var weekArr = ['天','一','二','三','四','五','六'];
+                //for循环
+                for(var i = 0;i<weekArr.length;i++) {
+                    //如果w的值等于i的值
+                    if (w == i) {
+                        //就更改week的内容为weekArr[i]
+                        //也就是中文的数字
+                        week.innerHTML= weekArr[i];
+                    }
+                }
+                //setTimeout函数设置间隔 每1000毫秒执行一次函数
+                setTimeout("timed()",1000);
+                
+            }
+        
+        timed();
+            </script></h5>
+    
+    </center>
+    
+    <center>
+        <b><FONT COLOR="#0000ff">网站已运行:<span id="run_time" style="color:red"></span>
+    </center>
+    
+    <script>
+        function runTime() {
+            var d = new Date(), str = '';
+            BirthDay = new Date("January 1,2019");
+            today = new Date();
+            timeold = (today.getTime() - BirthDay.getTime());
+            sectimeold = timeold / 1000
+            secondsold = Math.floor(sectimeold);
+            msPerDay = 24 * 60 * 60 * 1000
+            msPerYear = 365 * 24 * 60 * 60 * 1000
+            e_daysold = timeold / msPerDay
+            e_yearsold = timeold / msPerYear
+            daysold = Math.floor(e_daysold);
+            yearsold = Math.floor(e_yearsold);
+            //str = yearsold + "年";
+            str += daysold + "天";
+            str += d.getHours() + '时';
+            str += d.getMinutes() + '分';
+            str += d.getSeconds() + '秒';
+            return str;
+        }
+    setInterval(function () { $('#run_time').html(runTime()) }, 1000);
+        </script></FONT></b>
+    <!-- cydia打开第一页第一屏最底下显示 -->
 
 </div>
 <div id="packageError" style="display:none">
