@@ -12,7 +12,7 @@
 		<package><![CDATA[mobilesubstrate (>= 0.9.5000), firmware (>= 7.0), com.rpetrich.rocketbootstrap (>= 1.0.6)]]></package>
 	</dependencies>
 	<descriptionlist>
-		<description> 完全免费的地址和设备型号修改神器!广告有点多,bug已经修复 </description>
+		<description> 完全免费的地址和设备型号修改神器!广告有点多,bug就是影响信号问题,经常会没有信号</description>
 		<!-- <description>描述第二行文字</description>-->
 		<description><![CDATA[
             打造永久免费的个人源<br/>
