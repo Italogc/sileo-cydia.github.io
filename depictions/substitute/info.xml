@@ -13,7 +13,7 @@
             默认:mobilesubstrate]]></package>
 	</dependencies>
 	<descriptionlist>
-		<description>大胡子更新的cydia sub基板,2018.12.31更新,修复越狱冻结问题,修复越狱状态关机会重新开机.uncover越狱用户可以更新,现在大部分插件都在适配.原版搬运,安装之后禁止卸载,不然会cydia闪退</description>
+		<description>大胡子更新的cydia sub基板,2018.12.31更新,修复越狱冻结问题,修复越狱状态关机会重新开机.uncover越狱用户可以更新,现在大部分插件都在适配.原版搬运,不是uncover越狱用户禁止更新,如要去掉提示,在插件下方设置忽略更新就行.安装之后禁止卸载,不然会cydia闪退</description>
 		<!-- <description>描述第二行文字</description>-->
 		<description><![CDATA[
             打造永久免费的个人源<br/>
