@@ -1,11 +1,11 @@
 <package>
 	<id>com.fengziboy</id>
-	<name>样版</name>
-    <version>当前版本:</version>
+	<name>LaunchInSafeMode「安全模式」</name>
+    <version>当前版本:1.0.3-4</version>
     <versio>暂无历史版本</versio>
 	<compatibility>
 		<firmware>
-			<miniOS>11.0</miniOS>
+			<miniOS>10.0</miniOS>
 		</firmware>
 	</compatibility>
 	<dependencies>
@@ -13,7 +13,7 @@
             默认:mobilesubstrate]]></package>
 	</dependencies>
 	<descriptionlist>
-		<description>  </description>
+		<description> 在桌面使用3DTouchc使软件进去安全模式运行,不被监测到越狱插件 </description>
 		<!-- <description>描述第二行文字</description>-->
 		<description><![CDATA[
             打造永久免费的个人源<br/>
@@ -24,7 +24,7 @@
 	<screenshots>
 		<screenshot>
 			<description>这是屏幕截图1!</description>
-			<image>1.png</image>
+			<image>1.jpg</image>
 		</screenshot>		
 		<screenshot>
 			<description>这是屏幕截图2!</description>
