@@ -1,0 +1,48 @@
+<package>
+	<id>com.fengziboy</id>
+	<name>清除越狱环境</name>
+    <version>当前版本:1.0</version>
+    <versio>暂无历史版本</versio>
+	<compatibility>
+		<firmware>
+			<miniOS>11.0</miniOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package><![CDATA[暂无描述依赖,我还没来得及写.<br/>
+            默认:mobilesubstrate]]></package>
+	</dependencies>
+	<descriptionlist>
+		<description> 安装后不用轻易卸载,一旦卸载整个越狱环境也会跟着一起卸载,此插件存在一定的风险,请明确风险后在进行安装,如你已经安装表示你愿意承担所存在的风险,出现的所有问题与本人无关,插件为免费发放,转载请勿收费,本插件并非盗取,也并非网上转载,本人亲自所写,使用半年没有任何问题,使用此插件清除越狱前注意事项,「请先尽量卸载个人安装的插件,不认识的插件不要乱卸载(防止你不认识卸载cydia),点击卸载之后q将会自动重启的手机,不会留下cydia的图标.若还想越狱可以用uncover进行越狱,没有任何毛病有其他问题进群进行咨询 </description>
+		<!-- <description>描述第二行文字</description>-->
+		<description><![CDATA[
+            打造永久免费的个人源<br/>
+            更多精彩在地下室
+		]]>
+		</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description>这是屏幕截图1!</description>
+			<image>1.png</image>
+		</screenshot>		
+		<screenshot>
+			<description>这是屏幕截图2!</description>
+			<image>2.png</image>
+		</screenshot>		
+	</screenshots>
+	<changelog>
+		<change>暂无发现版本</change>
+		<change>暂无说明</change>
+		<change>没有历史变更</change>
+	</changelog>
+    <shortDescription>你的固件不被支持。固件应大于11.0</shortDescription>
+    <versi>描述插件所需要的依赖</versi>
+	<!--<links>
+		<link>
+			<name>加入我的qq越狱交流群</name>
+			<url>https://qm.qq.com/cgi-bin/qm/qr?k=3E6NIMRxJuoAGun5DH6XLWoQ8cm5T4TW</url>
+			<iconclass>fa fa-qq</iconclass>
+		</link>
+	</links>-->
+</package>
