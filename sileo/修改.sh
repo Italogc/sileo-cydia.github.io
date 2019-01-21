@@ -6,10 +6,10 @@ perl -p -i -e "s/852360/ /g"  样本2.json
 #大小
 perl -p -i -e "s/852362/3/g"  样本2.json
 #支持版本
-perl -p -i -e "s/852363/ios11/g"  样本2.json
+#perl -p -i -e "s/852363/ios11/g"  样本2.json
 #perl -p -i -e "s/852363/ios11/g"  样本2.json
 #更新日期
-perl -p -i -e "s/852364/2019-01-21/g"  样本2.json
+#perl -p -i -e "s/852364/2019-01-21/g"  样本2.json
 
 mv 样本2.json sileozh.json
 
