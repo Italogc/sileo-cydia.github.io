@@ -1,0 +1,48 @@
+<package>
+	<id>com.fengziboy</id>
+	<name>sileo</name>
+    <version>当前版本:0.4b6</version>
+    <versio>暂无历史版本</versio>
+	<compatibility>
+		<firmware>
+			<miniOS>11.0</miniOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package><![CDATA[暂无描述依赖,我还没来得及写.<br/>
+            默认:mobilesubstrate]]></package>
+	</dependencies>
+	<descriptionlist>
+		<description> 安装sileo这个后.在安装一个终端,(cydia搜索NewTerm安装) 打开终端输入(su)回车,接下来输入密码(alpine)输入密码是不显示的直接回车,然后输入(sillyo)回车,等待安装完成,之后桌面就会显示sileo,接下来可以安装一个sileo汉化补丁了,尽情的去玩吧,「目前sileo对默写有依赖的插件无法获取,原因是sileo自带electra源,这样使uncover的源无法加载,2个源的插件冲突,所以开发者把electra的源进行了隐藏,这样就使所有的依赖无法显示,没有依赖文件也就使某些插件无法从sileo获取我正在移植uocover源」</description>
+		<!-- <description>描述第二行文字</description>-->
+		<description><![CDATA[
+            打造永久免费的个人源<br/>
+            更多精彩在地下室
+		]]>
+		</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description>这是屏幕截图1!</description>
+			<image>1.png</image>
+		</screenshot>		
+		<screenshot>
+			<description>这是屏幕截图2!</description>
+			<image>2.png</image>
+		</screenshot>		
+	</screenshots>
+	<changelog>
+		<change>暂无发现版本</change>
+		<change>暂无说明</change>
+		<change>没有历史变更</change>
+	</changelog>
+    <shortDescription>你的固件不被支持。固件应大于11.0</shortDescription>
+    <versi>描述插件所需要的依赖</versi>
+	<!--<links>
+		<link>
+			<name>加入我的qq越狱交流群</name>
+			<url>https://qm.qq.com/cgi-bin/qm/qr?k=3E6NIMRxJuoAGun5DH6XLWoQ8cm5T4TW</url>
+			<iconclass>fa fa-qq</iconclass>
+		</link>
+	</links>-->
+</package>
