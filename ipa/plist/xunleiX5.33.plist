@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>http://app-global.pgyer.com/e495ed94b658e3f636b21671d8bc0b52.ipa?attname=xunleiX5.31FZ.ipa&amp;amp;sign=a160c9a258d9f15d5e52d5d6c273ee98&amp;amp;t=5c46b97f</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>needs-shine</key>
+					<true/>
+					<key>url</key>
+					<string>https://fengzicydia.oss-cn-hongkong.aliyuncs.com/yuanjiao50.png</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>full-size-image</string>
+					<key>needs-shine</key>
+					<true/>
+					<key>url</key>
+					<string>https://fengzicydia.oss-cn-hongkong.aliyuncs.com/yuanjiao50.png</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>com.xunlei.iosthunder</string>
+				<key>bundle-version</key>
+				<string>5.31</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>subtitle</key>
+				<string>迅雷</string>
+				<key>title</key>
+				<string>迅雷X5.33——他是个疯子</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
