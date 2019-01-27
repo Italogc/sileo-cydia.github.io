@@ -33,9 +33,9 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.xunlei.iosthunder</string>
+				<string>com.llz.yesebo</string>
 				<key>bundle-version</key>
-				<string>1.18</string>
+				<string>1.1.8</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>subtitle</key>
